@@ -1,0 +1,24 @@
+{
+  "name": "aws-node-rookout-tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rookout/node-serverless-tutorial-2022.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Rookout/node-serverless-tutorial-2022/issues"
+  },
+  "homepage": "https://github.com/Rookout/node-serverless-tutorial-2022#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "serverless-http": "^3.0.1",
+    "uuid": "^8.3.2"
+  }
+}

@@ -1,0 +1,14 @@
+service: aws-node-rookout-tutorial
+frameworkVersion: '3'
+
+provider:
+  name: aws
+  runtime: nodejs16.x
+
+functions:
+  api:
+    handler: index.handler
+    events:
+      - httpApi:
+          path: /todos
+          method: '*'
